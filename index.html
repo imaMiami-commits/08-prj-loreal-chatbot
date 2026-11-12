@@ -8,10 +8,6 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -19,11 +15,25 @@
     <div class="page-wrapper">
       <!------- Header / Branding ------->
       <header class="site-header">
-        <h1 class="site-title">Smart Product Advisor</h1>
+        <img
+          src="img/loreal-logo.png"
+          alt="L’Oréal logo"
+          class="brand-logo"
+        />
+        <h1 class="site-title">L’Oréal Smart Product Advisor</h1>
       </header>
 
       <!------- Chat Area ------->
       <main>
+        <section class="intro" aria-labelledby="intro-title">
+          <p class="intro-eyebrow">YOUR BEAUTY, YOUR WAY</p>
+          <h2 id="intro-title">Discover a routine that feels like you.</h2>
+          <p class="intro-copy">
+            Explore skincare, makeup, haircare, and fragrance with a little
+            expert guidance.
+          </p>
+        </section>
+
         <section class="chatbox">
           <div id="chatWindow" class="chat-window">
             <!-- messages will be appended here via JS -->
@@ -49,7 +59,7 @@
 
       <!------- Footer Links ------->
       <footer class="site-footer">
-        <p>&copy; 2025 Company Name. All rights reserved.</p>
+        <p>&copy; 2025 L’Oréal. All rights reserved.</p>
         <nav>
           <!-- These URLs are placeholders -->
           <a href="#">Privacy Policy</a>
